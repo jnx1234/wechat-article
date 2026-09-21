@@ -1,0 +1,17 @@
+{
+  "description": "微信公众号减脂文章自动生成系统",
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p C:/Users/11200/Desktop/team/output/*)",
+      "Bash(dir C:/Users/11200/Desktop/team/output/*)",
+      "Bash(cat C:/Users/11200/Desktop/team/config/persona.md)",
+      "Bash(cat C:/Users/11200/Desktop/team/prompts/*.md)"
+    ]
+  },
+  "skills": {
+    "wechat-gen": {
+      "path": ".claude/skills/wechat-gen.md",
+      "description": "6步流水线生成减脂类公众号文章"
+    }
+  }
+}
